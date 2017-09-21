@@ -1,0 +1,208 @@
+body{
+
+width:100%;
+    height: 100%;
+    background-color: #800080;
+}
+
+.form4{
+    padding: 6%;
+    width: 35%;
+    background-color: white;
+    margin-top: 4%;
+    padding-bottom: 5%;
+}
+.errmsg{
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 6%;
+    padding-left: 2%;
+}
+input[type=password], input[type=email] {
+    background: none;
+    font-size: 1.1rem;
+    border-radius: 3px;
+ border: 1px solid #0AF;
+    margin-bottom: 20px;
+    clear: both;
+    margin-left: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: visible;
+    z-index: 99;
+    clear: both;
+    background-color: black;
+}
+#keys{
+    float:right;
+    color: white;
+}
+h3{
+    margin-top: 7%;
+    margin-bottom: 5%;
+    color: black;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: "Times New Roman", Times, serif;
+   
+}
+.btn{
+    margin-top: 2%;
+    width: 100%;
+    margin-left: 2%;
+    background-color: #0AF;
+}
+.bottom1{
+    color: #0AF;
+}
+@media only screen and (max-width: 768px) {
+
+
+
+body{
+
+    width:100%;
+    height: 100%;
+    background-color: #800080;
+}
+
+.form4{
+    padding: 6%;
+    width: 70%;
+    background-color: white;
+    margin-top: 4%;
+    padding-bottom: 5%;
+}
+.errmsg{
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 6%;
+    padding-left: 2%;
+}
+input[type=password], input[type=email] {
+    background: none;
+    font-size: 1.1rem;
+    border-radius: 8px;
+ border: 2px solid #0AF;
+    margin-bottom: 20px;
+    clear: both;
+    margin-left: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: visible;
+    z-index: 99;
+    clear: both;
+    background-color: black;
+}
+#keys{
+    float:right;
+    color: white;
+}
+h3{
+    margin-top: 7%;
+    margin-bottom: 5%;
+    color: black;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: "Times New Roman", Times, serif;
+   
+}
+.btn{
+    margin-top: 2%;
+    width: 100%;
+    margin-left: 2%;
+    background-color: #0AF;
+}
+.bottom1{
+    color: #0AF;
+}
+}
+@media only screen and (max-width: 360px) {
+    body{
+
+    width:100%;
+    height: 100%;
+    background-color: #800080;
+}
+
+.form4{
+    padding: 6%;
+    width: 100%;
+    background-color: white;
+    margin-top: 4%;
+    padding-bottom: 5%;
+}
+.errmsg{
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 6%;
+    padding-left: 2%;
+}
+input[type=password], input[type=email] {
+    background: none;
+    font-size: 1.1rem;
+    border-radius: 3px;
+ border: 1px solid #0AF;
+    margin-bottom: 20px;
+    clear: both;
+    margin-left: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: visible;
+    z-index: 99;
+    clear: both;
+    background-color: black;
+}
+#keys{
+    float:right;
+    color: white;
+}
+h3{
+    margin-top: 7%;
+    margin-bottom: 5%;
+    color: black;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: "Times New Roman", Times, serif;
+   
+}
+.btn{
+    margin-top: 2%;
+    width: 100%;
+    margin-left: 2%;
+    background-color: green;
+}
+.bottom1{
+    color: #0AF;
+}
+}

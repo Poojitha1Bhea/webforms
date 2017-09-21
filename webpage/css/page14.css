@@ -1,0 +1,168 @@
+body{
+
+width:100%;
+    height: 100%;
+    background-color: #0AF;
+}
+
+.form{
+    padding: 6%;
+    width: 40%;
+    background-color: white;
+    margin-top: 10%;
+    padding-bottom: 5%;
+}
+.errmsg{
+    color: black;
+}
+H1{
+color: #0AF;
+font-family: "Times New Roman", Times, serif;
+font-size: 30px;
+text-align: center;
+padding-bottom: 5%;
+padding-top: 2%;
+}
+
+p {
+    color: #0AF;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 6%;
+    padding-left: 5%;
+}
+input[type=email], input[type=text] {
+    background: none;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: 1px solid #0AF;
+    margin-bottom: 20px;
+    clear: both;
+    margin-left: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.btn{
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 2%;
+    border-radius: 8px;
+    border: 1px solid #0AF;
+    background-color: #0AF;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+body{
+
+width:100%;
+    height: 100%;
+    background-color: #0AF;
+}
+
+.form{
+    padding: 6%;
+    width: 70%;
+    background-color: grey;
+    margin-top: 10%;
+    padding-bottom: 5%;
+}
+.errmsg{
+    color: black;
+}
+H1{
+color: #0AF;
+font-family: "Times New Roman", Times, serif;
+font-size: 30px;
+text-align: center;
+padding-bottom: 5%;
+padding-top: 2%;
+}
+
+p {
+    color: #0AF;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 6%;
+    padding-left: 5%;
+}
+input[type=email], input[type=text] {
+    background: none;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: 1px solid #0AF;
+    margin-bottom: 20px;
+    clear: both;
+    margin-left: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.btn{
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 2%;
+    border-radius: 8px;
+    border: 1px solid #0AF;
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 5%;
+}
+}
+
+@media only screen and (max-width: 360px) {
+body{
+
+width:100%;
+    height: 100%;
+    background-color: #0AF;
+}
+
+.form{
+    padding: 6%;
+    width: 100%;
+    background-color: green;
+    margin-top: 10%;
+    padding-bottom: 5%;
+}
+.errmsg{
+    color: black;
+}
+H1{
+color: #0AF;
+font-family: "Times New Roman", Times, serif;
+font-size: 30px;
+text-align: center;
+padding-bottom: 5%;
+padding-top: 2%;
+}
+
+p {
+    color: #0AF;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 6%;
+    padding-left: 5%;
+}
+input[type=email], input[type=text] {
+    background: none;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: 1px solid #0AF;
+    margin-bottom: 20px;
+    clear: both;
+    margin-left: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.btn{
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 2%;
+    border-radius: 8px;
+    border: 1px solid #0AF;
+    background-color: #0AF;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 5%;
+}
+}

@@ -1,0 +1,148 @@
+body{
+
+width:100%;
+    height: 100%;
+    background-color: white;
+}
+
+.form{
+    padding: 6%;
+    width: 40%;
+    background: linear-gradient(to bottom, #3333cc 0%, #99ff99 100%);
+    margin-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 8px;
+}
+.errmsg{
+    color: black;
+}
+
+
+input[type=text], input[type=email] {
+    background: none;
+    font-size: 1.5rem;
+    border-radius: 8px;
+ border: 2px solid #0AF;
+    margin-bottom: 20px;
+    clear: both;
+    margin-left: 10px;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+}
+
+
+.btn{
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 2%;
+    background-color: 99ff99;
+    margin-bottom: 5%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.8rem;
+}
+h1{
+color:#6699ff ;
+text-align: center;
+font-size:2.5rem;
+margin-top: 5%;
+}
+@media only screen and (max-width: 768px) {
+body{
+
+width:100%;
+    height: 100%;
+    background-color: grey;
+}
+
+.form{
+    padding: 6%;
+    width: 70%;
+    background: linear-gradient(to bottom, #3333cc 0%, #99ff99 100%);
+    margin-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 8px;
+}
+.errmsg{
+    color: black;
+}
+
+
+input[type=text], input[type=email] {
+    background: none;
+    font-size: 1.5rem;
+    border-radius: 8px;
+ border: 2px solid #0AF;
+    margin-bottom: 20px;
+    clear: both;
+    margin-left: 10px;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+}
+
+
+.btn{
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 2%;
+    background-color: green;
+    margin-bottom: 5%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.8rem;
+}
+h1{
+color:#6699ff ;
+text-align: center;
+font-size:2.5rem;
+margin-top: 5%;
+}
+}
+@media only screen and (max-width: 360px) {
+body{
+
+width:100%;
+    height: 100%;
+    background-color: white;
+}
+
+.form{
+    padding: 6%;
+    width: 100%;
+    background: linear-gradient(to bottom, #3333cc 0%, #99ff99 100%);
+    margin-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 8px;
+}
+.errmsg{
+    color: red;
+}
+
+
+input[type=text], input[type=email] {
+    background: none;
+    font-size: 1.5rem;
+    border-radius: 8px;
+ border: 2px solid #0AF;
+    margin-bottom: 20px;
+    clear: both;
+    margin-left: 10px;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+}
+
+
+.btn{
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 2%;
+    background-color: green;
+    margin-bottom: 5%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.8rem;
+}
+h1{
+color:#6699ff ;
+text-align: center;
+font-size:2.5rem;
+margin-top: 5%;
+}
+}

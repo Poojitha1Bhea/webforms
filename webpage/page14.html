@@ -1,0 +1,73 @@
+
+
+<html>
+	<head>
+		<title>Messenger</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css\page14.css">
+	</head>
+<body>
+		<div class="container form">
+			<form method="POST" action="welcome.html" name="myForm"  onsubmit="return (validateForm())">
+		        <div class="col-12">
+		        <img style="image\messenger.png"><br>
+			        
+				<H1>Messenger</H1>
+				<p>Sign in with facebook to get started</p>
+		        <div class="form-group row">
+		        	<input type="text" placeholder="email" class="form-control" id="email" name="email" value="" onblur="return (validateemail())" />
+		        	<div class="errmsg" id="msg1"></div>
+                    <input type="text" placeholder="Password" class="form-control" id="pwd" name="pwd" value="" onblur="return (validatePassword())" />
+		        	<div class="errmsg" id="msg2"></div>
+					<button type="submit" class="btn">Log In</button>
+				</div>
+					
+			
+	</div>
+	
+</div>
+		      
+		       	
+	
+		   </form>
+		</div>
+
+<script type="text/javascript">
+	function validateForm(){
+	
+				if (validateEmail()) {
+					if (validatePassword()) {
+						
+								}
+							} 
+			return false;
+	}
+	
+function validateemail(){
+	var email = document.getElementById('email').value;
+	var emailFilter=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    if (!emailFilter.test(email)) {
+       document.getElementById('msg1').innerHTML="Email field should contain the pattern of example@exe.com";
+        return false;
+    }
+    else
+    	document.getElementById('msg1').innerHTML="";
+    	return true;
+
+}
+function validatePassword(){
+		var pwd= document.getElementById('pwd').value;
+		var password=/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/
+		if (!password.test(pwd)) {
+			document.getElementById('msg2').innerHTML="Password should include special charcters with min length of 8 characters";
+			return false;
+		}
+		else
+			document.getElementById('msg2').innerHTML="";
+			return true;
+	}
+</script>
+</body>
+</html>

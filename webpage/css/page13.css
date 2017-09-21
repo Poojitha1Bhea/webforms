@@ -1,0 +1,233 @@
+body{
+
+width:100%;
+    height: 100%;
+    background-color: #F0FFFF;
+}
+
+.form4{
+    padding: 6%;
+    width: 35%;
+    background-color: white;
+    margin-top: 4%;
+    padding-bottom: 5%;
+}
+.errmsg{
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 6%;
+    padding-left: 15%;
+}
+input[type=text], input[type=text] {
+    background: none;
+    font-size: 1.1rem;
+    border-radius: 1px;
+ border: 1px solid #0AF;
+    margin-bottom: 20px;
+    clear: both;
+    margin-left: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+#footer{
+	height: 5%;
+	width: 100%;
+	background-color: white;
+	 position: fixed;
+    bottom: 0;
+    overflow: visible;
+    z-index: 99;
+    clear: both;
+}
+.footerright{
+	float: left;
+	position: relative;
+	width: 60%;
+	text-align: left;
+	padding: 15px;
+}
+.footerleft{
+	float: left;
+	position: relative;
+	text-align: center;
+}
+h3{
+    margin-top: 7%;
+    margin-bottom: 5%;
+    color: black;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: "Times New Roman", Times, serif;
+   
+}
+.btn{
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 2%;
+    background-color: #0AF;
+    margin-bottom: 5%;
+}
+.bottom1{
+    color: #0AF;
+}
+@media only screen and (max-width: 768px) {
+body{
+
+width:100%;
+    height: 100%;
+    background-color: #F0FFFF;
+}
+
+.form4{
+    padding: 6%;
+    width: 70%;
+    background-color: white;
+    margin-top: 4%;
+    padding-bottom: 5%;
+}
+.errmsg{
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 6%;
+    padding-left: 15%;
+}
+input[type=text], input[type=text] {
+    background: none;
+    font-size: 1.1rem;
+    border-radius: 1px;
+ border: 1px solid #0AF;
+    margin-bottom: 20px;
+    clear: both;
+    margin-left: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+#footer{
+	height: 5%;
+	width: 100%;
+	background-color: white;
+	 position: fixed;
+    bottom: 0;
+    overflow: visible;
+    z-index: 99;
+    clear: both;
+}
+.footerright{
+	float: left;
+	position: relative;
+	width: 60%;
+	text-align: left;
+	padding: 15px;
+}
+.footerleft{
+	float: left;
+	position: relative;
+	text-align: center;
+}
+h3{
+    margin-top: 7%;
+    margin-bottom: 5%;
+    color: black;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: "Times New Roman", Times, serif;
+   
+}
+.btn{
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 2%;
+    background-color: green;
+    margin-bottom: 5%;
+}
+.bottom1{
+    color: #0AF;
+}
+@media only screen and (max-width: 360px) {
+body{
+
+width:100%;
+    height: 100%;
+    background-color: #A0F;
+}
+
+.form4{
+    padding: 6%;
+    width: 100%;
+    background-color: white;
+    margin-top: 4%;
+    padding-bottom: 5%;
+}
+.errmsg{
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 6%;
+    padding-left: 15%;
+}
+input[type=text], input[type=text] {
+    background: none;
+    font-size: 1.1rem;
+    border-radius: 1px;
+ border: 1px solid #0AF;
+    margin-bottom: 20px;
+    clear: both;
+    margin-left: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+#footer{
+	height: 5%;
+	width: 100%;
+	background-color: white;
+	 position: fixed;
+    bottom: 0;
+    overflow: visible;
+    z-index: 99;
+    clear: both;
+}
+.footerright{
+	float: left;
+	position: relative;
+	width: 60%;
+	text-align: left;
+	padding: 15px;
+}
+.footerleft{
+	float: left;
+	position: relative;
+	text-align: center;
+}
+h3{
+    margin-top: 7%;
+    margin-bottom: 5%;
+    color: black;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: "Times New Roman", Times, serif;
+   
+}
+.btn{
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 2%;
+    background-color: green;
+    margin-bottom: 5%;
+}
+.bottom1{
+    color: #0AF;
+}

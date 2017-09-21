@@ -1,0 +1,406 @@
+#google_translate_element select{
+	height: 40px;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 2px;
+	padding: 5px;
+}
+#google_translate_element {
+  color: transparent !important;
+  
+}
+#google_translate_element a {
+  display: none;
+}
+.goog-logo-link {
+   display:none !important;
+} 
+
+.goog-te-gadget{
+   color: transparent !important;
+}
+
+.container-fluid{
+	padding:2%;
+	color: #333;
+}
+
+.head{
+	background-color: #f2f2f0;
+	padding: 1%;
+	
+}
+.dropdown{
+	float:right;
+	background-color:white;
+	border-style: inset;
+	border-color: white;
+	width:25%;
+	padding:2px;
+}
+.box{
+	position: relative;
+	margin-left: 40px;
+	background-color: rgba(255,255,255,.85);
+	margin-height:40px;
+	top:-380px;
+	font-size:28px;
+	padding-left:40px;
+	padding-right:50px;
+	
+	padding-top:20px;
+	height: 100px;
+	width: 25%;
+	font-family:'Roboto',arial, sans-serif;
+	border-top: 5px solid orange;
+	color:#333;
+}
+
+p{
+	font-size: 15px;
+
+}
+
+.line-separator{
+	background-color: #ff8f1c;
+	height:6px;
+	
+	width: 10%;
+}
+h2{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.left{
+	float: left;
+	width: 100%;
+}
+.fright{
+	margin-left: 20%;
+}
+h1{
+	margin-bottom: 5%;
+	}
+.required{
+	color: red;
+
+}
+.errmsg{
+	color: red;
+	margin-bottom: 5%;
+}
+#fname, #lname, #email, #phonenumber, #bdate{
+	width: 85%;
+	padding-top:2%;
+	padding-bottom:2%;
+	font-size: 18px;
+	margin-bottom: 5%;
+}
+ #country,#study, #need, #interest{
+ 	width: 85%;
+ 	padding-bottom: 4%;
+ 	padding-top: 4%;
+ 	font-size: 18px;
+ 	margin-bottom: 5%;
+ }
+#gender{
+margin-bottom: 5%;
+}
+button{
+	width: 60%;	
+	margin-top: 5%;
+}
+.btn{
+		padding-top:5%;
+	padding-bottom: 5%;
+}
+.btn:hover{
+	background-color: orange;
+	cursor: pointer;
+
+}
+
+footer{
+	width:100%;
+	font-size:13px;
+	background: #f2f2f0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+	width:100%;
+	font-size:13px;
+	padding:1%;
+}
+#key{
+	float:right;
+}
+#key a:hover{
+	color:red;
+	cursor: pointer;
+}
+.colo{
+	color:#0AF;
+
+}
+.colo:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+h3{
+color: orange;
+font-family: "Times New Roman", Times, serif;
+font-weight: 900;
+}
+h4{
+color: #00A5DF;
+font-family: "Times New Roman", Times, serif;
+font-weight: 900;
+} 
+
+@media only screen and (max-width: 768px) {
+.container-fluid{
+	padding:2%;
+	color: #333;
+}
+
+.head{
+	background-color: #f2f2f0;
+	padding: 1%;
+	
+}
+.dropdown{
+	float:right;
+	background-color:white;
+	border-style: inset;
+	border-color: white;
+	width:25%;
+	padding:2px;
+}
+p{
+	font-size: 15px;
+
+}
+
+.line-separator{
+	background-color: #ff8f1c;
+	height:6px;
+	margin-top: 2%;
+	width: 10%;
+}
+h2{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.left{
+	float: left;
+	width: 100%;
+}
+.fright{
+	margin-left: 20%;
+}
+h1{
+	margin-bottom: 5%;
+	}
+.required{
+	color: red;
+
+}
+.errmsg{
+	color: red;
+	margin-bottom: 5%;
+}
+#fname, #lname, #email, #phonenumber, #bdate{
+	width: 85%;
+	padding-top:2%;
+	padding-bottom:2%;
+	font-size: 18px;
+	margin-bottom: 5%;
+}
+ #country,#study, #need, #interest{
+ 	width: 85%;
+ 	padding-bottom: 4%;
+ 	padding-top: 4%;
+ 	font-size: 18px;
+ 	margin-bottom: 5%;
+ }
+#gender{
+margin-bottom: 5%;
+}
+button{
+	width: 60%;	
+	margin-top: 5%;
+}
+.btn{
+		padding-top:5%;
+	padding-bottom: 5%;
+}
+.btn:hover{
+	background-color: orange;
+	cursor: pointer;
+
+}
+
+footer{
+	background-color: #f2f2f0;
+	width:100%;
+	font-size:13px;
+	background: #f2f2f0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+	width:100%;
+	font-size:13px;
+	padding:1%;
+}
+#key{
+	float:right;
+}
+#key a:hover{
+	color:red;
+	cursor: pointer;
+}
+.colo{
+	color:#0AF;
+
+}
+.colo:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+h3{
+color: orange;
+font-family: "Times New Roman", Times, serif;
+font-weight: 900;
+}
+h4{
+color: #00A5DF;
+font-family: "Times New Roman", Times, serif;
+font-weight: 900;
+} 
+}
+
+
+
+
+@media only screen and (max-width: 360px) {
+	.container-fluid{
+	padding:3%;
+	color: #333;
+}
+
+.head{
+	background-color: #f2f2f0;
+	padding: 1%;
+	
+}
+.dropdown{
+	float:right;
+	background-color:white;
+	border-style: inset;
+	border-color: white;
+	width:75%;
+	padding:2px;
+}
+p{
+	font-size: 15px;
+
+}
+
+.line-separator{
+	background-color: #ff8f1c;
+	height:6px;
+	margin-top: 2%;
+	width: 10%;
+}
+h2{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.left{
+	
+	width: 150%;
+	position: relative;
+	
+}
+.col-6{
+	max-width:55% !important;
+}
+.fright{
+	width:150%;
+	margin-left: 20%;
+	top:-600px !important;
+}
+h1{
+	margin-bottom: 5%;
+	}
+.required{
+	color: red;
+
+}
+.errmsg{
+	color: red;
+	margin-bottom: 5%;
+}
+#fname, #lname, #email, #phonenumber, #bdate{
+	width: 85%;
+	padding-top:2%;
+	padding-bottom:2%;
+	font-size: 18px;
+	margin-bottom: 5%;
+}
+ #country,#study, #need, #interest{
+ 	width: 85%;
+ 	padding-bottom: 4%;
+ 	padding-top: 4%;
+ 	font-size: 18px;
+ 	margin-bottom: 5%;
+ }
+#gender{
+margin-bottom: 5%;
+}
+button{
+	width: 60%;	
+	margin-top: 5%;
+}
+.btn{
+		padding-top:5%;
+	padding-bottom: 5%;
+}
+.btn:hover{
+	background-color: orange;
+	cursor: pointer;
+
+}
+
+footer{
+background: green;
+    margin-top: 15px;
+    margin-bottom: 15px;
+	width:100%;
+	font-size:13px;
+	padding:1%;
+}
+#key{
+	float:right;
+}
+#key a:hover{
+	color:red;
+	cursor: pointer;
+}
+.colo{
+	color:#0AF;
+
+}
+.colo:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+h3{
+color: orange;
+font-family: "Times New Roman", Times, serif;
+font-weight: 900;
+}
+h4{
+color: #00A5DF;
+font-family: "Times New Roman", Times, serif;
+font-weight: 900;
+} 
+}

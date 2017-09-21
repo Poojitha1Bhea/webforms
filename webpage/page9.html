@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<title>Microsoft Form</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/page9.css">
+	</head>
+<body>
+		<div class="container form4">
+			<form method="POST" action="welcome.html" name="myForm"  onsubmit="return (validateForm())">
+		        <div class="col-12">
+		        <img src="image/microsoft_logo.svg">
+			        <h3>Sign In</h3>
+			        <p>Use Your Microsoft Account.<span style= "color:#0AF">What's this?</span></p>
+
+		        <div class="form-group row">
+		        		<input type="email" placeholder="e-mail" class="form-control" id="email" name="email" value="" onblur="return (validateemail())" />
+		        	<div class="errmsg" id="msg1"></div>
+
+					<button type="submit" class="btn">Next</button>
+					 <p>No Account?<span class="bottom1">Create one!</span></p>
+		        </div>
+		       	</div>
+
+		   </form>
+		</div>
+
+<script type="text/javascript">
+		function validateForm(){
+			if (validateemail()) {
+				
+			}
+				return false;
+		}
+		function validateemail(){
+			var email = document.getElementById('email').value;
+			var emailFilter=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+		    if (!emailFilter.test(email)) {
+		       document.getElementById('msg1').innerHTML="Email field should contain the pattern of poojitha@exe.com";
+		        return false;
+		    }
+		    else
+		    	document.getElementById('msg1').innerHTML="";
+		    	return true;
+		    }
+</script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	</body>
+
+	<div id="footer">
+	<div class="table-row">
+	<div id="bottom">
+	<footer>
+	<div id="keys">
+	<span id="key"><sup>©</sup>2017 Microsoft</span>&nbsp &nbsp
+	<span id="key"> Terms Of use &nbsp&nbsp Privacy & cookies</span>
+	</div>
+	</div>	
+	</div>
+	</div>
+	</footer>
+
+
+
+</html>

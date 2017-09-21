@@ -1,0 +1,150 @@
+body{
+
+width:100%;
+    height: 100%;
+    background-color: #800080;
+}
+
+.form{
+    padding: 6%;
+    width: 30%;
+   background: linear-gradient(to bottom, #99ffcc 0%, #666699 100%);
+    margin-top: 5%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    border-radius: 8px;
+}
+.errmsg{
+    color: black;
+}
+
+
+input[type=text], input[type=password] {
+    background: white;
+    font-size: 2.0rem;
+    border-radius: 2px;
+    border: 2px solid #0AF
+    clear: both;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+
+.btn{
+    margin-top: 10%;
+    width: 100%;
+    background-color:#A0F;
+    margin-bottom: 5%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.0rem;
+    margin-right: 5%;
+}
+h1{
+color:#6699ff ;
+text-align: center;
+font-size:5.0rem;
+font-weight: bold;
+margin-top: 5%;
+}
+@media only screen and (max-width: 768px) {
+
+body{
+
+width:100%;
+    height: 100%;
+    background-color: white;
+}
+
+.form{
+    padding: 6%;
+    width: 70%;
+   background: linear-gradient(to bottom, #99ffcc 0%, #666699 100%);
+    margin-top: 5%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    border-radius: 8px;
+}
+.errmsg{
+    color: black;
+}
+
+
+input[type=text], input[type=password] {
+    background: white;
+    font-size: 2.0rem;
+    border-radius: 2px;
+    border: 2px solid #0AF
+    clear: both;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+
+.btn{
+    margin-top: 10%;
+    width: 100%;
+    background-color: #6699ff ;
+    margin-bottom: 5%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.0rem;
+    margin-right: 5%;
+}
+h1{
+color:#6699ff ;
+text-align: center;
+font-size:5.0rem;
+font-weight: bold;
+margin-top: 5%;
+}
+}
+@media only screen and (max-width: 360px) {
+
+body{
+
+width:100%;
+    height: 100%;
+    background-color: white;
+}
+
+.form{
+    padding: 6%;
+    width: 100%;
+   background: linear-gradient(to bottom, #99ffcc 0%, #666699 100%);
+    margin-top: 5%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    border-radius: 8px;
+}
+.errmsg{
+    color: red;
+}
+
+
+input[type=text], input[type=password] {
+    background: white;
+    font-size: 2.0rem;
+    border-radius: 2px;
+    border: 2px solid #0AF
+    clear: both;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+
+.btn{
+    margin-top: 10%;
+    width: 100%;
+    background-color: #6699ff ;
+    margin-bottom: 5%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.0rem;
+    margin-right: 5%;
+}
+h1{
+color:#6699ff ;
+text-align: center;
+font-size:5.0rem;
+font-weight: bold;
+margin-top: 5%;
+}
+}

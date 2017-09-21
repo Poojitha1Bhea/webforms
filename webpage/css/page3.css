@@ -1,0 +1,193 @@
+.container-fluid{
+	padding:2%;
+	color: #333;
+}
+
+.head{
+	background-color: #f2f2f0;
+	padding: 1%;
+	
+}
+.dropdown{
+	float:right;
+	background-color:white;
+	border-style: inset;
+	border-color: white;
+	width:25%;
+	padding:2px;
+}
+p{
+	font-size: 15px;
+
+}
+
+.line-separator{
+	background-color: #ff8f1c;
+	height:6px;
+	margin-top: 2%;
+	width: 10%;
+}
+h2{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.left{
+	float: left;
+	width: 100%;
+}
+
+.footer{
+	background-color: grey;
+	margin-top: 5%;
+	font-size:13px;
+	padding:1%;
+}
+#key{
+	float:right;
+}
+#key a:hover{
+	color:red;
+	cursor: pointer;
+}
+.color{
+	color:#0AF;
+
+}
+.colo:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+@media only screen and (max-width: 768px) {
+.container-fluid{
+	padding:2%;
+	color: #333;
+}
+
+.head{
+	background-color: #f2f2f0;
+	padding: 1%;
+	
+}
+.dropdown{
+	float:right;
+	background-color:white;
+	border-style: inset;
+	border-color: white;
+	width:25%;
+	padding:2px;
+}
+p{
+	font-size: 15px;
+
+}
+
+.line-separator{
+	background-color: #ff8f1c;
+	height:6px;
+	margin-top: 2%;
+	width: 10%;
+}
+h2{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.left{
+	float: left;
+	width: 100%;
+}
+
+
+footer{
+	background-color: #f2f2f0;
+	width:100%;
+	font-size:13px;
+	padding:1%;
+}
+#key{
+	float:right;
+}
+#key a:hover{
+	color:red;
+	cursor: pointer;
+}
+.colo{
+	color:#0AF;
+
+}
+.colo:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+}
+
+
+
+
+@media only screen and (max-width: 360px) {
+	.container-fluid{
+	padding:3%;
+	color: #333;
+}
+
+.head{
+	background-color: #f2f2f0;
+	padding: 1%;
+	
+}
+.dropdown{
+	float:right;
+	background-color:white;
+	border-style: inset;
+	border-color: white;
+	width:75%;
+	padding:2px;
+}
+p{
+	font-size: 15px;
+
+}
+
+.line-separator{
+	background-color: #ff8f1c;
+	height:6px;
+	margin-top: 2%;
+	width: 10%;
+}
+h2{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.left{
+	
+	width: 150%;
+	position: relative;
+	
+}
+.col-6{
+	max-width:55% !important;
+}
+
+footer{
+	background-color: #f2f2f0;
+	width:100%;
+	font-size:13px;
+	padding:1%;
+}
+#key{
+	float:right;
+}
+#key a:hover{
+	color:red;
+	cursor: pointer;
+}
+.colo{
+	color:#0AF;
+
+}
+.colo:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+}
+
+
